@@ -24,10 +24,10 @@ const App = () => {
   );
 
   return !robot.length ? (
-    <h1 className="tc v-mid f1">Loading....</h1>
+    <h1 className='tc v-mid f1'>Loading....</h1>
   ) : (
-    <div className="tc">
-      <h1 className="f1">RoboFreinds</h1>
+    <div className='tc'>
+      <h1 className='f1'>RoboFreinds</h1>
       <SearchBox searchChange={onSearchChange} />
       <Scroll>
         <ErrorBoundry>
